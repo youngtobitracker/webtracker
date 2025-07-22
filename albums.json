@@ -1,0 +1,165 @@
+[
+{
+    "title": "PRE MIXTAPE LEGEND",
+    "cover": "cover/m_l.jpg",
+    "tracks": [
+      {
+        "title": "westside (v1)",
+        "date": "26/01/25",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/premixtape/westsidev1.mp3",
+        "desc": "Producido por aritz."
+      },
+      {
+        "title": "Sick Demo (?)",
+        "date": "26/01/25",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/premixtape/sick demo.mp3",
+        "desc": "Demo desconocida. Producida por aritz."
+      },
+      {
+        "title": "DAÑO (?)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/premixtape/dañomp3.mp3",
+        "desc": "Desconocido."
+      }
+    ]
+  },
+  {
+    "title": "MIXTAPE LEGEND (MARZO 2025)",
+    "cover": "cover/m_l.jpg",
+    "tracks": [
+      {
+        "title": "H0ES PT. 2 (v3)",
+        "date": "21/07/2025 (leak)",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/hoespt2_ref1_v1.mp3",
+        "desc": "V3 de H0ES PT. 2 - Leak de youngtobi."
+      },
+      {
+        "title": "sweet dreams (v2)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/mixtapelegend/sweet dreams v1.mp3",
+        "desc": "Snippet de sweet dreams con Dantom. Una de las primeras versiones grabadas. Verso final de youngtobi diferente al release."
+      },
+      {
+        "title": "ALL RED (ZOG PRESET TEST v1)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/mixtapelegend/zonepresettest.mp3",
+        "desc": "Test de presets para Zone Of Gods. Cover parcial de ALL RED de Playboi Carti."
+      },
+      {
+        "title": "P ZONE OF GODS (v1)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/zoneog_v1_refog.mp3",
+        "desc": "OG Zone Of Gods - Primera versión grabada, con un beat de YouTube."
+      }
+    ]
+  },
+  {
+    "title": "POST MIXTAPE LEGEND",
+    "cover": "cover/legend.jpg",
+    "tracks": [
+      {
+        "title": "ALEMANA (snippet v1)",
+        "date": "21/03/25",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/postmt/alemanav1aritz.mp3",
+        "desc": "Snippet de \"alemana.mp3\". Producida por aritz."
+      },
+      {
+        "title": "westside (v1?)",
+        "date": "26/01/25",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/postmt/westside.mp3",
+        "desc": "Producido por aritz. Probablemente una de las primeras versiones."
+      },
+      {
+        "title": "arranca (v1)",
+        "date": "10/03/25",
+        "quality": "LQ (128kbps)",
+        "audio": "audio/postmt/arrancav1.mp3",
+        "desc": "Extraído de un video. Usa un sample de CARNIVAL - Kanye West."
+      }
+    ]
+  },
+  {
+    "title": "PRE 5:55",
+    "cover": "cover/555.jpg",
+    "tracks": [
+      {
+        "title": "???",
+        "date": "20/04/2025",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/pre555/pre555unknown.mp3",
+        "desc": "Desconocido. Producción de aritz."
+      },
+      {
+        "title": "ZONE OF GODS (v3)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/pre555/zonev2_brod_v1.mp3",
+        "desc": "Nuevo beat de rodd!, incluido con una letra nueva como demo. Mal mastering, incompleto sin adlibs, pero con un beat más largo."
+      },
+      {
+        "title": "fuuck my ex, fuck my problems (v4)",
+        "date": "30/03/2025",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/pre555/FMYXv3.mp3",
+        "desc": "Nuevo mix, no llego a estar en DSPs ya que los intrumentos estan extremadamente fuertes."
+      },
+      {
+        "title": "5:55 (v1)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/pre555/555premix.mp3",
+        "desc": "Versión grabada final de 5:55, sin masterizar. No tiene adlibs grabados como en la versión final."
+      },
+      {
+        "title": "killing my feelings (v3?)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/555/killing my feelings v1nom.mp3",
+        "desc": "Versión primitiva de killing my feelings, posiblemente alguna de las primeras sesiones de grabación realizadas. Mastering sin terminar. Algunos elementos como los adlibs siguen presentes en la versión final."
+      }
+    ]
+  },
+  {
+    "title": "5:55",
+    "cover": "cover/555.jpg",
+    "tracks": [
+      {
+        "title": "NO LIE (AI - REF V1)",
+        "date": "20/04/2025",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/555/nolieai.mp3",
+        "desc": "Ref hecha por rodd! con inteligencia artificial."
+      },
+      {
+        "title": "sweet dreams (?)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/555/swtdrmsfull.mp3.mp3",
+        "desc": "Version completa de sweet dreams. No mixeado."
+      },
+      {
+        "title": "5:55 (v2)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/555/555.mp3",
+        "desc": "Cambios minimos desde su v1. Sin mixear/masterizar."
+      },
+      {
+        "title": "killing my feelings (v5?)",
+        "date": "???",
+        "quality": "HQ (320kbps)",
+        "audio": "audio/555/KMFV2.mp3",
+        "desc": "Version completa de killing my feelings. Se añadieron adlibs de rodd!, y algunos detalles de mixing no fueron terminados."
+      }
+    ]
+  }
+]

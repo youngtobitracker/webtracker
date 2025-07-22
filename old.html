@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>YOUNGTOBI TRACKER</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+  <script src="bckg.js" defer></script>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .menu {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="metaballs"></canvas>
+
+  <!-- Fondo animado -->
+  <div class="animated-bg">
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+    <div class="circle circle-3"></div>
+  </div>
+
+  <h1 class="title">YOUNGTOBI TRACKER</h1>
+  <div class="t1">TRACKLIST DE CANCIONES UNRELEASED, LEAKS Y DEMOS.</div>
+  <br />
+
+  <!-- Modal de imagen -->
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <img src="cover/" id="modalImage" class="modal-content" />
+  </div>
+
+  <!-- MENÚ DE ÁLBUMES -->
+  <div class="menu">
+
+    <!-- Álbum 1 -->
+    <div class="dropdown">
+      <div class="dropdown-header">MIXTAPE LEGEND (MARZO 2025)</div>
+      <img src="cover/m_l.jpg" alt="Portada del álbum" class="album-cover-thumbnail" onclick="openModal(this.src)" />
+
+      <div class="dropdown-content">
+        <div class="item">
+          <h3>H0ES PT. 2 (v3)</h3>
+          <div class="item-details">
+            <span>21/07/2025 (leak)</span>
+            <span class="label">HQ (320kbps)</span>
+          </div>
+          <audio controls src="audio/hoespt2_ref1_v1.mp3"></audio>
+          <div class="audio-description">
+            <em>V3 de H0ES PT. 2 - Leak de youngtobi.</em>
+          </div>
+        </div>
+
+      <div class="dropdown-content">
+        <div class="item">
+          <h3>killing my feelings (v1?)</h3>
+          <div class="item-details">
+            <span>???</span>
+            <span class="label">HQ (320kbps)</span>
+          </div>
+          <audio controls src="audio/mixtapelegend/sweet%20dreams%20v1.mp3"></audio>
+          <div class="audio-description">
+            <em>Snippet de killing my feelings. Verso final de youngtobi diferente al release.</em>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <h3>ALL RED (ZOG PRESET TEST v1)</h3>
+          <div class="item-details">
+            <span>???</span>
+            <span class="label">HQ (320kbps)</span>
+          </div>
+          <audio controls src="audio/mixtapelegend/zonepresettest.mp3"></audio>
+          <div class="audio-description">
+            <em>Test de presets para Zone Of Gods. Cover parcial de ALL RED de Playboi Carti.</em>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>P ZONE OF GODS (v1)</h3>
+          <div class="item-details">
+            <span>???</span>
+            <span class="label">HQ (320kbps)</span>
+          </div>
+          <audio controls src="audio/zoneog_v1_refog.mp3"></audio>
+          <div class="audio-description">
+            <em>OG Zone Of Gods  Primera versión grabada, con un beat de YouTube.</em>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Álbum 2 -->
+    <div class="dropdown">
+      <div class="dropdown-header">POST MIXTAPE LEGEND</div>
+      <img src="cover/legend.jpg" alt="Portada del álbum" class="album-cover-thumbnail" onclick="openModal(this.src)" />
+
+      <div class="dropdown-content">
+        <div class="item">
+          <h3>=Ñ ALEMANA (snippet v1)</h3>
+          <div class="item-details">
+            <span>21/03/25</span>
+            <span class="label">HQ (320kbps)</span>
+          </div>
+          <audio controls src="audio/postmt/alemanav1aritz.mp3"></audio>
+          <div class="audio-description">
+            <em>Snippet de "alemana.mp3". Producida por aritz.</em>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>westside (v1?)</h3>
+          <div class="item-details">
+            <span>26/01/25</span>
+            <span class="label">HQ (320kbps)</span>
+          </div>
+          <audio controls src="audio/postmt/westside.mp3"></audio>
+          <div class="audio-description">
+            <em>Producido por aritz. Probablemente una de las primeras versiones.</em>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>arranca (v1)</h3>
+          <div class="item-details">
+            <span>10/03/25</span>
+            <span class="label">LQ (128kbps)</span>
+          </div>
+          <audio controls src="audio/postmt/arrancav1.mp3"></audio>
+          <div class="audio-description">
+            <em>Extraído de un video. Usa un sample de CARNIVAL - Kanye West.</em>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Álbum 3 -->
+   <div class="dropdown">
+   <div class="dropdown-header">PRE 5:55</div>
+   <img src="cover/555.jpg" alt="Portada del álbum" class="album-cover-thumbnail" onclick="openModal(this.src)" />
+
+  <div class="dropdown-content">
+    <div class="item">
+      <h3>???</h3>
+      <div class="item-details">
+        <span>20/04/2025</span>
+        <span class="label">HQ (320kbps)</span>
+      </div>
+      <audio controls src="audio/pre555/pre555unknown.mp3"></audio>
+      <div class="audio-description">
+        <em>Desconocido. Producción de aritz.</em>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>ZONE OF GODS (v3)</h3>
+      <div class="item-details">
+        <span>???</span>
+        <span class="label">HQ (320kbps)</span>
+      </div>
+      <audio controls src="audio/pre555/zonev2_brod_v1.mp3"></audio>
+      <div class="audio-description">
+        <em>Nuevo beat de rodd!, incluido con una letra nueva como demo. Mal mastering, incompleto sin adlibs, pero con un beat más largo.</em>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>5:55 (v1)</h3>
+      <div class="item-details">
+        <span>???</span>
+        <span class="label">HQ (320kbps)</span>
+      </div>
+      <audio controls src="audio/pre555/555premix.mp3"></audio>
+      <div class="audio-description">
+        <em>Versión grabada final de 5:55, sin masterizar. No tiene adlibs grabados como en la versión final.</em>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>killing my feelings (v3?)</h3>
+      <div class="item-details">
+        <span>???</span>
+        <span class="label">HQ (320kbps)</span>
+      </div>
+      <audio controls src="audio/555/killing%20my%20feelings%20v1nom.mp3"></audio>
+      <div class="audio-description">
+        <em>Versión primitiva de killing my feelings, posiblemente alguna de las primeras sesiones de grabación realizadas. Mastering sin terminar. Algunos elementos como los adlibs siguen presentes en la versión final.</em>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Álbum 4 (opcional) -->
+<!-- Si querés mantener este como otro álbum, asegurate que no repita contenido -->
+<div class="dropdown">
+  <div class="dropdown-header">5:55</div>
+  <img src="cover/555.jpg" alt="Portada del álbum" class="album-cover-thumbnail" onclick="openModal(this.src)" />
+
+  <div class="dropdown-content">
+    <div class="item">
+      <h3>???</h3>
+      <div class="item-details">
+        <span>20/04/2025</span>
+        <span class="label">HQ (320kbps)</span>
+      </div>
+      <audio controls src="audio/pre555/pre555unknown.mp3"></audio>
+      <div class="audio-description">
+        <em>Desconocido. Producción de aritz.</em>
+      </div>
+    </div>
+  </div>
+</div>
+ </div>
+  </div>
+
+    <!-- Puedes copiar y pegar más bloques .dropdown aquí para agregar más álbumes -->
+
+</body>
+</html>
